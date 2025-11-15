@@ -97,6 +97,6 @@ console.log(dest);
 // Cloning through Assignment
 let desti = Object.assign({},src);
 console.log(desti);
-// assign
+//  clonning through assign 
 let destin = {...src};
-console.log(destin);
+console.log(destin);   
