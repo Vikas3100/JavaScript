@@ -88,15 +88,62 @@
 
 // -------------------------CLOning---------------
 ////Cloning through Iteration
-let src = {a:10,b:20,c:30};
-let dest = {};
-for(let key in src){
-    dest[key] = src[key];
-}
-console.log(dest);
-// Cloning through Assignment
-let desti = Object.assign({},src);
-console.log(desti);
-//  clonning through assign 
-let destin = {...src};
-console.log(destin);   
+// let src = {a:10,b:20,c:30};
+// let dest = {};
+// for(let key in src){
+//     dest[key] = src[key];
+// }
+// console.log(dest);
+// // Cloning through Assignment
+// let desti = Object.assign({},src);
+// console.log(desti);
+// //  clonning through assign 
+// let destin = {...src};
+
+// ---------------In-build library-----------
+// console.log(destin);   
+// let lastName='Vikas';
+// let firstName = new String('Yadav')
+// console.log(lastName.length);
+// let msg = `this is 
+// my 
+// first
+// message
+// `;
+// console.log(msg, msg.split = ' ');
+// let date = new Date('January 31 2004 07:45');
+// let date2 = new Date(2004, 5 , 12, 7)
+// console.log(date);
+// console.log(date2);
+// -------------------------ARRAYS------------------
+// let num = [1,4,6,8,9];
+// num.push(1);
+// num.unshift(8);
+// num.splice(2,0,'a','b','c');// (start,delete, insert)
+// console.log(num);
+// console.log(num.indexOf('a'))
+// let courses = [
+//     {no:1, name:'Vikas'},
+//     {no:2, name:'Xikas'}
+// ]
+// console.log(courses);
+// console.log(courses.length);
+// let course = courses.find(function(course){
+//         return course.name == 'Vikas';
+// })
+// ---------------Arrow function -----------------
+// let course = courses.find(course =>course.name ==='Xikas');
+// console.log(course)
+// -------------------Removing---------------
+// let nums = [1,2,3,4,5,6,7];
+// nums.pop();
+// nums.shift();
+// nums.splice(2,1);
+// console.log(nums)
+// ---------------------EMPTY----------------
+let numbers = [1,2,3,4,5,6,7]
+let nums = numbers;
+numbers.length = 0;
+console.log(nums)
+console.log(numbers)
+numbers.splice(0,numbers.length);
