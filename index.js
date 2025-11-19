@@ -147,3 +147,10 @@ numbers.length = 0;
 console.log(nums)
 console.log(numbers)
 numbers.splice(0,numbers.length);
+
+
+class demo{
+    constructor(){``
+       consoe 
+    }
+}

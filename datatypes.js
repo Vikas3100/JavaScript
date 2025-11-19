@@ -4,7 +4,7 @@
 // let name= "VIKAS";
 // let age= 22;
 // let isLoggedin = true;
-// //number
+// //number         //NUBNSS
 // //bigint
 // //string
 // //boolean
