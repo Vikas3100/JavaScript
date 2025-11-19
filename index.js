@@ -141,7 +141,7 @@
 // nums.splice(2,1);
 // console.log(nums)
 // ---------------------EMPTY----------------
-let numbers = [1,2,3,4,5,6,7]
+let numbers = [1,2,56,4,85,6,7]
 let nums = numbers;
 numbers.length = 0;
 console.log(nums)
