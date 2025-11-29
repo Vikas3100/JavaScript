@@ -4,17 +4,17 @@
 // let anotherName = myHomeName
 // anotherName = "Vikas"
 // console.log(myHomeName)
-// console.log(anotherName)
+console.log(anotherName)
 
-// let userOne={
-//     email:"vikas@gmail.com",
-//     upi: "vikas@ybl"
-// }
-// let userTwo= userOne
+let userOne={
+    email:"vikas@gmail.com",
+    upi: "vikas@ybl"
+}
+let userTwo= userOne
 
-// userTwo.email = "Xikas@google.com"
-// console.log(userOne.email)
-// console.log(userTwo.email)
+userTwo.email = "Xikas@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
 
 let  arr1 = [1,2,4,5,6];
 let arr2 = [...arr1];   //spread
